@@ -1,0 +1,852 @@
+<!doctype HTML>
+
+<html>
+    <head>
+        
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!-- Favicon-->
+<link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+<!-- Bootstrap Core Css -->
+<link href="/static/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+<!-- Waves Effect Css -->
+<link href="/static/plugins/node-waves/waves.css" rel="stylesheet" />
+
+<!-- Animation Css -->
+<link href="/static/plugins/animate-css/animate.css" rel="stylesheet" />
+
+<!-- Morris Chart Css-->
+<link href="/static/plugins/morrisjs/morris.css" rel="stylesheet" />
+
+<!-- Custom Css -->
+<link href="/static/css/style.css" rel="stylesheet">
+
+<!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+<link href="/static/css/themes/all-themes.css" rel="stylesheet" />
+
+<!-- Jquery Core Js -->
+<script src="/static/plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core Js -->
+<script src="/static/plugins/bootstrap/js/bootstrap.js"></script>
+
+<!-- Select Plugin Js -->
+<script src="/static/plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+<!-- Slimscroll Plugin Js -->
+<script src="/static/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+<!-- Waves Effect Plugin Js -->
+<script src="/static/plugins/node-waves/waves.js"></script>
+
+<!-- Jquery CountTo Plugin Js -->
+<script src="/static/plugins/jquery-countto/jquery.countTo.js"></script>
+
+<!-- Morris Plugin Js -->
+<script src="/static/plugins/raphael/raphael.min.js"></script>
+<script src="/static/plugins/morrisjs/morris.js"></script>
+
+<!-- ChartJs -->
+<script src="/static/plugins/chartjs/Chart.bundle.js"></script>
+
+<!-- Flot Charts Plugin Js -->
+<script src="/static/plugins/flot-charts/jquery.flot.js"></script>
+<script src="/static/plugins/flot-charts/jquery.flot.resize.js"></script>
+<script src="/static/plugins/flot-charts/jquery.flot.pie.js"></script>
+<script src="/static/plugins/flot-charts/jquery.flot.categories.js"></script>
+<script src="/static/plugins/flot-charts/jquery.flot.time.js"></script>
+
+<!-- Sparkline Chart Plugin Js -->
+<script src="/static/plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+<!-- Custom Js -->
+<script src="/static/js/admin.js"></script>
+
+<link href="/static/stylesheets/general.css" rel="stylesheet" />
+<script src="/static/scripts/general.js"></script>
+        <title>Nathan Collins</title>
+    </head>
+    <body class="theme-green">
+        <!-- Page Loader -->
+<div class="page-loader-wrapper">
+    <div class="loader">
+        <div class="preloader">
+            <div class="spinner-layer pl-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <p>Please wait...</p>
+    </div>
+</div>
+<!-- #END# Page Loader -->
+<!-- Overlay For Sidebars -->
+<div class="overlay"></div>
+<!-- #END# Overlay For Sidebars -->
+<!-- Top Bar -->
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+            <a href="javascript:void(0);" class="bars"></a>
+            <a class="navbar-brand" href="/">NATHAN COLLINS</a>
+        </div>
+    </div>
+</nav>
+<!-- #Top Bar -->
+<section>
+    <!-- Left Sidebar -->
+    <aside id="leftsidebar" class="sidebar">
+        <!-- Menu -->
+        <div class="menu">
+            <ul class="list">
+                <!--<li class="header">MAIN NAVIGATION</li>-->
+                <li >
+                    <a href="/">
+                        <i class="material-icons">home</i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="/projects/">
+                        <i class="material-icons">work</i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="/contests/">
+                        <i class="material-icons">thumb_up</i>
+                        <span>Programming Contests</span>
+                    </a>
+                </li>
+                <li  class="active" >
+                    <a href="/classes/">
+                        <i class="material-icons">star</i>
+                        <span>Classes I've Taken</span>
+                    </a>
+                </li>
+                <li >
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">videogame_asset</i>
+                        <span>Games</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="/games/Bible/">Bible Verses</a>
+                        </li>
+                        <li>
+                            <a href="/games/colors/">Colors</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--<li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">widgets</i>
+                        <span>Widgets</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="javascript:void(0);" class="menu-toggle">
+                                <span>Infobox</span>
+                            </a>
+                            <ul class="ml-menu">
+                                <li>
+                                    <a href="pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                </li>
+                                <li>
+                                    <a href="pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                </li>
+                                <li>
+                                    <a href="pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                </li>
+                                <li>
+                                    <a href="pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                </li>
+                                <li>
+                                    <a href="pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>-->
+            </ul>
+        </div>
+        <!-- #Menu -->
+        <!-- Footer -->
+        <div class="legal">
+            <div class="copyright">
+                &copy; 2018 <a href="javascript:void(0);">Nathan Collins</a>
+            </div>
+            <div class="version">
+                <b>Version: </b> 0.1
+            </div>
+        </div>
+        <!-- #Footer -->
+    </aside>
+    <!-- #END# Left Sidebar -->
+</section>
+
+        <section class="content">
+            <div class="container-fluid">
+                <div class="block-header">
+                    <h1>Courses</h1>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p>I've been priveleged to be a student at Bob Jones University, and I've been able to take the following classes.</p>
+                    </div>
+                </div>
+                <div class="block-header">
+                    <h2>Key</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="card"><div class="header bg-cyan"><h2>Major</h2></div></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="card"><div class="header bg-orange"><h2>Minor</h2></div></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="card"><div class="header bg-green"><h2>BJU Core</h2></div></div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="card"><div class="header bg-red"><h2>Elective</h2></div></div>
+                    </div>
+                </div>
+                
+                    <div class="block-header">
+                        <h2>2017-2</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Introduction to Business <small>BA 101</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Apologetics and Worldview <small>Bi 499</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Language Translation Systems <small>CpS 450</small>
+                                        </h2>
+                                    </div>
+                                    
+                                        <div class="body">
+                                            This class examines how a compiler works, including a student project of writing a compiler using common tools.
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Microprocessor Interfacing <small>Ele 404</small>
+                                        </h2>
+                                    </div>
+                                    
+                                        <div class="body">
+                                            This class is about understanding how microprocessors connect to the world around them. In this class, we mainly work with the Arduino Zero board, examining its capabilities and how it works.
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Differential Equations <small>Ma 406</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2017-1</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Bible Doctrines I <small>Bi 360</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Programming Language Design <small>CpS 350</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Selected Topics in Computer Science <small>CpS 490</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Linear Algebra <small>Ma 300</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Number Theory <small>Ma 401</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2016-2</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Bible Doctrines II <small>Bi 402</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Introduction to Operating Systems <small>CpS 360</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-orange">
+                                        <h2>
+                                            Theoretical Foundations in Computer Science <small>CpS 440</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Computer Security <small>CpS 491</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Ethics <small>Ph 302</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2016-1</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Life and Ministry of Paul <small>Bi 225</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Hermeneutics <small>Bi 230</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Data Structures <small>CpS 210</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Computer Systems <small>CpS 230</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Introduction to Database Management Systems <small>CpS 301</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Microprocessor Architecture <small>CpS 310</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Probability and Statistics I <small>Ma 404</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2015-2</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Old Testament Messages <small>Bi 105</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Unix Programming <small>CpS 320</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Basic Circuit Analysis II <small>Ele 206</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-orange">
+                                        <h2>
+                                            Computational Mathematics <small>Ma 420</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            General Physics II <small>Phy 202</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2015-1</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            New Testament Messages <small>Bi 109</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Fundamentals of Speech <small>Com 101</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Basic Circuit Analysis I <small>Ele 205</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Introduction to the Arts <small>FA 125</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-orange">
+                                        <h2>
+                                            Calculus IV <small>Ma 302</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            General Physics I <small>Phy 201</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Freshman Seminar <small>Uni 101</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2014-2</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Computer Science II <small>CpS 111</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-orange">
+                                        <h2>
+                                            Calculus III <small>Ma 301</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2014-1</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Introduction to Engineering <small>Eng 101</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-orange">
+                                        <h2>
+                                            Calculus II <small>Ma 201</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2013-3</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Composition and Rhetoric <small>En 102</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Composition and Literature <small>En 103</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Foundations of Economics <small>SSE 200</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2013-2</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            History of Civilizations I <small>Hi 101</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Introduction to Mathematical Reasoning <small>Ma 150</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2013-1</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-cyan">
+                                        <h2>
+                                            Digital Electronics <small>Ele 110</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Elementary German I <small>MLG 111</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+                    <div class="block-header">
+                        <h2>2012-3</h2>
+                    </div>
+                    <div class="row clearfix">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-red">
+                                        <h2>
+                                            Principles of Accounting I <small>Ac 101</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Appreciation of Music <small>Mu 225</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="card">
+                                    <div class="header bg-green">
+                                        <h2>
+                                            Themes in Western Thought <small>Ph 200</small>
+                                        </h2>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        </section>
+    </body>
+</html>
