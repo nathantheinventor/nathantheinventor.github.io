@@ -5,3 +5,19 @@ img.round {
 .grayHover:hover {
     background-color: #ccc;
 }
+
+.card .header .header-dropdown {
+    text-align: right;
+    display: inline-block;
+    width: 30%;
+    padding: 0px;
+    vertical-align: top;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.card .header h2 {
+    display: inline-block;
+    width: 68%;
+}
