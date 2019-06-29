@@ -1,0 +1,61 @@
+/* Card styling */
+.number-card {
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+}
+.number-card span.big-number {
+    vertical-align: middle;
+    font-size: 80px;
+    line-height: 12vh;
+}
+.number-card span.small-number {
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 3vh;
+}
+.number-card div.top {
+    text-align: left;
+    height: 3vh;
+    padding: 5px;
+}
+.number-card div.middle {
+    text-align: center;
+    height: 12vh;
+}
+.number-card div.bottom {
+    text-align: right;
+    height: 3vh;
+    padding: 5px;
+}
+.number-card div.bottom span {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+div.number-card.backward {
+    background-color: lightgray;
+    margin-bottom: -19vh;
+}
+div.number-card.backward span {
+    display: none;
+}
+.card-holder {
+    height: 25vh;
+    margin-bottom: 20px;
+}
+span.number-6, span.number-9 {
+    box-shadow: inset 0 -0.025em white, inset 0 -0.05em #000;
+    display: inline-block;
+}
+
+/* Card stage styling */
+.card-stage {
+    height: 20vh;
+    margin-bottom: 20px;
+}
