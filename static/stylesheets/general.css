@@ -2,8 +2,14 @@ img.round {
     border-radius: 50%;
 }
 
-.grayHover:hover {
-    background-color: #ccc;
+@media (hover: hover) {
+    .grayHover:hover {
+        background-color: #ccc;
+    }
+}
+
+.grayHover {
+    cursor: pointer;
 }
 
 .card .header .header-dropdown {
